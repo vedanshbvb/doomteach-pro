@@ -1,0 +1,152 @@
+STATUS: Starting pipeline for prompt: donald trump and superman talk about Docker
+STATUS: Session created.
+STATUS: Running RootAgent...
+EVENT: Event
+CONTENT: Okay, I will start by generating a script for the social media reel using the ScriptAgent. The prompt is "donald trump and superman talk about Docker".
+
+STATUS: Starting script generation...
+Generated script: {
+"Donald Trump": "Superman, folks, I'm telling you, Docker is a tremendous technology, believe me.",
+"Superman": "Ah, Donald, Docker is a containerization platform that allows developers to package, ship, and run applications in containers.",
+"Donald Trump": "That's right, Superman, it's a big league platform, the best, the greatest, the fantastic-est.",
+"Superman": "Docker provides a consistent and reliable environment for applications, and it's easy to use and manage.",
+"Donald Trump": "I see, so it's like a big league house for your applications?",
+"Superman": "Exactly, Donald! And Docker containers are lightweight and portable, making it easy to deploy and scale applications.",
+"Donald Trump": "That's amazing, Superman, you're a genius, a real winner.",
+"Superman": "Thanks, Donald, I'm just trying to help people understand this complex technology.",
+"Donald Trump": "Complex? Docker is not complex, it's simple, it's easy, it's tremendous.",
+"Superman": "Well, I'm glad we could have this conversation, Donald.",
+"Donald Trump": "Me too, Superman, me too.",
+"Superman": "What about Docker volumes, Donald?",
+"Donald Trump": "Ah, great question, Superman. Docker volumes are a way to persist data in containers.",
+"Superman": "Exactly, and they can be used to persist data even after a container is deleted.",
+"Donald Trump": "That's right, Superman, you're a true Docker expert.",
+"Superman": "Thanks, Donald, I'm just trying to help people learn about Docker.",
+"Donald Trump": "Well, you're doing a great job, Superman.",
+"Superman": "Thanks, Donald."}
+
+
+
+script done
+Parsed script: [['Donald Trump', "Superman, folks, I'm telling you, Docker is a tremendous technology, believe me."], ['Superman', 'Ah, Donald, Docker is a containerization platform that allows developers to package, ship, and run applications in containers.'], ['Donald Trump', "That's right, Superman, it's a big league platform, the best, the greatest, the fantastic-est."], ['Superman', "Docker provides a consistent and reliable environment for applications, and it's easy to use and manage."], ['Donald Trump', "I see, so it's like a big league house for your applications?"], ['Superman', 'Exactly, Donald! And Docker containers are lightweight and portable, making it easy to deploy and scale applications.'], ['Donald Trump', "That's amazing, Superman, you're a genius, a real winner."], ['Superman', "Thanks, Donald, I'm just trying to help people understand this complex technology."], ['Donald Trump', "Complex? Docker is not complex, it's simple, it's easy, it's tremendous."], ['Superman', "Well, I'm glad we could have this conversation, Donald."], ['Donald Trump', 'Me too, Superman, me too.'], ['Superman', 'What about Docker volumes, Donald?'], ['Donald Trump', 'Ah, great question, Superman. Docker volumes are a way to persist data in containers.'], ['Superman', 'Exactly, and they can be used to persist data even after a container is deleted.'], ['Donald Trump', "That's right, Superman, you're a true Docker expert."], ['Superman', "Thanks, Donald, I'm just trying to help people learn about Docker."], ['Donald Trump', "Well, you're doing a great job, Superman."], ['Superman', 'Thanks, Donald.']]
+EVENT: Event
+CONTENT: None
+EVENT: Event
+CONTENT: Okay, I have the script. Now I need to identify the characters in the script.
+
+EVENT: Event
+CONTENT: None
+EVENT: Event
+CONTENT: Now that I have the script and the character names, I can generate the audio and timeline using the VoiceAgent.
+
+STATUS: Starting AUDIO generation...
+entered run
+Synthesizing text: Superman, folks, I'm telling you, Docker is a tremendous technology, believe me. to media/generated/audio/donald_trump_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-gwj-2025-06-23-22-47-20.mp3
+Audio duration: 3.47s
+Processed Donald Trump: Superman, folks, I'm telling you, Docker is a tremendous technology, believe me. -> donald_trump_1.mp3 (3.47s)
+Synthesizing text: Ah, Donald, Docker is a containerization platform that allows developers to package, ship, and run applications in containers. to media/generated/audio/superman_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vrl-2025-06-23-22-47-25.mp3
+Audio duration: 9.56s
+Processed Superman: Ah, Donald, Docker is a containerization platform that allows developers to package, ship, and run applications in containers. -> superman_2.mp3 (9.56s)
+Synthesizing text: That's right, Superman, it's a big league platform, the best, the greatest, the fantastic-est. to media/generated/audio/donald_trump_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-gyv-2025-06-23-22-47-30.mp3
+Audio duration: 4.73s
+Processed Donald Trump: That's right, Superman, it's a big league platform, the best, the greatest, the fantastic-est. -> donald_trump_3.mp3 (4.73s)
+Synthesizing text: Docker provides a consistent and reliable environment for applications, and it's easy to use and manage. to media/generated/audio/superman_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-fks-2025-06-23-22-47-35.mp3
+Audio duration: 7.47s
+Processed Superman: Docker provides a consistent and reliable environment for applications, and it's easy to use and manage. -> superman_4.mp3 (7.47s)
+Synthesizing text: I see, so it's like a big league house for your applications? to media/generated/audio/donald_trump_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-fql-2025-06-23-22-47-52.mp3
+Audio duration: 3.00s
+Processed Donald Trump: I see, so it's like a big league house for your applications? -> donald_trump_5.mp3 (3.00s)
+Synthesizing text: Exactly, Donald! And Docker containers are lightweight and portable, making it easy to deploy and scale applications. to media/generated/audio/superman_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ndb-2025-06-23-22-47-57.mp3
+Audio duration: 8.18s
+Processed Superman: Exactly, Donald! And Docker containers are lightweight and portable, making it easy to deploy and scale applications. -> superman_6.mp3 (8.18s)
+Synthesizing text: That's amazing, Superman, you're a genius, a real winner. to media/generated/audio/donald_trump_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-tnu-2025-06-23-22-48-02.mp3
+Audio duration: 2.95s
+Processed Donald Trump: That's amazing, Superman, you're a genius, a real winner. -> donald_trump_7.mp3 (2.95s)
+Synthesizing text: Thanks, Donald, I'm just trying to help people understand this complex technology. to media/generated/audio/superman_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-wdl-2025-06-23-22-48-07.mp3
+Audio duration: 4.96s
+Processed Superman: Thanks, Donald, I'm just trying to help people understand this complex technology. -> superman_8.mp3 (4.96s)
+Synthesizing text: Complex? Docker is not complex, it's simple, it's easy, it's tremendous. to media/generated/audio/donald_trump_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-zmr-2025-06-23-22-48-12.mp3
+Audio duration: 4.08s
+Processed Donald Trump: Complex? Docker is not complex, it's simple, it's easy, it's tremendous. -> donald_trump_9.mp3 (4.08s)
+Synthesizing text: Well, I'm glad we could have this conversation, Donald. to media/generated/audio/superman_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-bgf-2025-06-23-22-48-16.mp3
+Audio duration: 3.34s
+Processed Superman: Well, I'm glad we could have this conversation, Donald. -> superman_10.mp3 (3.34s)
+Synthesizing text: Me too, Superman, me too. to media/generated/audio/donald_trump_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-kun-2025-06-23-22-48-21.mp3
+Audio duration: 1.49s
+Processed Donald Trump: Me too, Superman, me too. -> donald_trump_11.mp3 (1.49s)
+Synthesizing text: What about Docker volumes, Donald? to media/generated/audio/superman_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-dnc-2025-06-23-22-48-25.mp3
+Audio duration: 2.27s
+Processed Superman: What about Docker volumes, Donald? -> superman_12.mp3 (2.27s)
+Synthesizing text: Ah, great question, Superman. Docker volumes are a way to persist data in containers. to media/generated/audio/donald_trump_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ogm-2025-06-23-22-48-30.mp3
+Audio duration: 4.83s
+Processed Donald Trump: Ah, great question, Superman. Docker volumes are a way to persist data in containers. -> donald_trump_13.mp3 (4.83s)
+Synthesizing text: Exactly, and they can be used to persist data even after a container is deleted. to media/generated/audio/superman_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-sqn-2025-06-23-22-48-35.mp3
+Audio duration: 5.15s
+Processed Superman: Exactly, and they can be used to persist data even after a container is deleted. -> superman_14.mp3 (5.15s)
+Synthesizing text: That's right, Superman, you're a true Docker expert. to media/generated/audio/donald_trump_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-erf-2025-06-23-22-48-40.mp3
+Audio duration: 2.64s
+Processed Donald Trump: That's right, Superman, you're a true Docker expert. -> donald_trump_15.mp3 (2.64s)
+Synthesizing text: Thanks, Donald, I'm just trying to help people learn about Docker. to media/generated/audio/superman_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-eza-2025-06-23-22-48-44.mp3
+Audio duration: 3.94s
+Processed Superman: Thanks, Donald, I'm just trying to help people learn about Docker. -> superman_16.mp3 (3.94s)
+Synthesizing text: Well, you're doing a great job, Superman. to media/generated/audio/donald_trump_17.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ukb-2025-06-23-22-48-49.mp3
+Audio duration: 1.91s
+Processed Donald Trump: Well, you're doing a great job, Superman. -> donald_trump_17.mp3 (1.91s)
+Synthesizing text: Thanks, Donald. to media/generated/audio/superman_18.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-egh-2025-06-23-22-48-52.mp3
+Audio duration: 1.15s
+Processed Superman: Thanks, Donald. -> superman_18.mp3 (1.15s)
+timeline INSIDE TTS2.py: [{'speaker': 'Donald Trump', 'start': 0.0, 'duration': 3.474285714285714, 'filename': 'donald_trump_1.mp3'}, {'speaker': 'Superman', 'start': 3.474285714285714, 'duration': 9.560816326530611, 'filename': 'superman_2.mp3'}, {'speaker': 'Donald Trump', 'start': 13.035102040816327, 'duration': 4.728163265306122, 'filename': 'donald_trump_3.mp3'}, {'speaker': 'Superman', 'start': 17.76326530612245, 'duration': 7.471020408163265, 'filename': 'superman_4.mp3'}, {'speaker': 'Donald Trump', 'start': 25.234285714285715, 'duration': 3.0040816326530613, 'filename': 'donald_trump_5.mp3'}, {'speaker': 'Superman', 'start': 28.238367346938777, 'duration': 8.176326530612245, 'filename': 'superman_6.mp3'}, {'speaker': 'Donald Trump', 'start': 36.414693877551024, 'duration': 2.9518367346938774, 'filename': 'donald_trump_7.mp3'}, {'speaker': 'Superman', 'start': 39.3665306122449, 'duration': 4.963265306122449, 'filename': 'superman_8.mp3'}, {'speaker': 'Donald Trump', 'start': 44.32979591836735, 'duration': 4.0751020408163265, 'filename': 'donald_trump_9.mp3'}, {'speaker': 'Superman', 'start': 48.40489795918368, 'duration': 3.3436734693877552, 'filename': 'superman_10.mp3'}, {'speaker': 'Donald Trump', 'start': 51.74857142857143, 'duration': 1.4889795918367348, 'filename': 'donald_trump_11.mp3'}, {'speaker': 'Superman', 'start': 53.23755102040816, 'duration': 2.27265306122449, 'filename': 'superman_12.mp3'}, {'speaker': 'Donald Trump', 'start': 55.51020408163265, 'duration': 4.83265306122449, 'filename': 'donald_trump_13.mp3'}, {'speaker': 'Superman', 'start': 60.34285714285714, 'duration': 5.146122448979592, 'filename': 'superman_14.mp3'}, {'speaker': 'Donald Trump', 'start': 65.48897959183674, 'duration': 2.6383673469387756, 'filename': 'donald_trump_15.mp3'}, {'speaker': 'Superman', 'start': 68.12734693877552, 'duration': 3.944489795918367, 'filename': 'superman_16.mp3'}, {'speaker': 'Donald Trump', 'start': 72.07183673469389, 'duration': 1.906938775510204, 'filename': 'donald_trump_17.mp3'}, {'speaker': 'Superman', 'start': 73.97877551020409, 'duration': 1.1493877551020408, 'filename': 'superman_18.mp3'}]
+tts_output RECEIVED BY TTS TOOL: {'audio_path': 'media/generated/audio/final_audio.mp3', 'timestamps': [{'speaker': 'Donald Trump', 'start': 0.0, 'duration': 3.474285714285714, 'filename': 'donald_trump_1.mp3'}, {'speaker': 'Superman', 'start': 3.474285714285714, 'duration': 9.560816326530611, 'filename': 'superman_2.mp3'}, {'speaker': 'Donald Trump', 'start': 13.035102040816327, 'duration': 4.728163265306122, 'filename': 'donald_trump_3.mp3'}, {'speaker': 'Superman', 'start': 17.76326530612245, 'duration': 7.471020408163265, 'filename': 'superman_4.mp3'}, {'speaker': 'Donald Trump', 'start': 25.234285714285715, 'duration': 3.0040816326530613, 'filename': 'donald_trump_5.mp3'}, {'speaker': 'Superman', 'start': 28.238367346938777, 'duration': 8.176326530612245, 'filename': 'superman_6.mp3'}, {'speaker': 'Donald Trump', 'start': 36.414693877551024, 'duration': 2.9518367346938774, 'filename': 'donald_trump_7.mp3'}, {'speaker': 'Superman', 'start': 39.3665306122449, 'duration': 4.963265306122449, 'filename': 'superman_8.mp3'}, {'speaker': 'Donald Trump', 'start': 44.32979591836735, 'duration': 4.0751020408163265, 'filename': 'donald_trump_9.mp3'}, {'speaker': 'Superman', 'start': 48.40489795918368, 'duration': 3.3436734693877552, 'filename': 'superman_10.mp3'}, {'speaker': 'Donald Trump', 'start': 51.74857142857143, 'duration': 1.4889795918367348, 'filename': 'donald_trump_11.mp3'}, {'speaker': 'Superman', 'start': 53.23755102040816, 'duration': 2.27265306122449, 'filename': 'superman_12.mp3'}, {'speaker': 'Donald Trump', 'start': 55.51020408163265, 'duration': 4.83265306122449, 'filename': 'donald_trump_13.mp3'}, {'speaker': 'Superman', 'start': 60.34285714285714, 'duration': 5.146122448979592, 'filename': 'superman_14.mp3'}, {'speaker': 'Donald Trump', 'start': 65.48897959183674, 'duration': 2.6383673469387756, 'filename': 'donald_trump_15.mp3'}, {'speaker': 'Superman', 'start': 68.12734693877552, 'duration': 3.944489795918367, 'filename': 'superman_16.mp3'}, {'speaker': 'Donald Trump', 'start': 72.07183673469389, 'duration': 1.906938775510204, 'filename': 'donald_trump_17.mp3'}, {'speaker': 'Superman', 'start': 73.97877551020409, 'duration': 1.1493877551020408, 'filename': 'superman_18.mp3'}]}
+EVENT: Event
+CONTENT: None
+EVENT: Event
+CONTENT: Great! Now that I have the audio and the timestamps, I can use the VideoAgent to generate the video with stickers and subtitles.
+
+Editing video with parameters: {'timestamps': [{'start': 0, 'speaker': 'Donald Trump', 'duration': 3.474285714285714, 'filename': 'donald_trump_1.mp3'}, {'filename': 'superman_2.mp3', 'speaker': 'Superman', 'start': 3.474285714285714, 'duration': 9.560816326530611}, {'duration': 4.728163265306122, 'start': 13.035102040816327, 'speaker': 'Donald Trump', 'filename': 'donald_trump_3.mp3'}, {'speaker': 'Superman', 'start': 17.76326530612245, 'duration': 7.471020408163265, 'filename': 'superman_4.mp3'}, {'start': 25.234285714285715, 'filename': 'donald_trump_5.mp3', 'duration': 3.0040816326530613, 'speaker': 'Donald Trump'}, {'duration': 8.176326530612245, 'speaker': 'Superman', 'start': 28.238367346938777, 'filename': 'superman_6.mp3'}, {'filename': 'donald_trump_7.mp3', 'start': 36.414693877551024, 'duration': 2.9518367346938774, 'speaker': 'Donald Trump'}, {'duration': 4.963265306122449, 'speaker': 'Superman', 'start': 39.3665306122449, 'filename': 'superman_8.mp3'}, {'duration': 4.0751020408163265, 'start': 44.32979591836735, 'speaker': 'Donald Trump', 'filename': 'donald_trump_9.mp3'}, {'start': 48.40489795918368, 'speaker': 'Superman', 'duration': 3.3436734693877552, 'filename': 'superman_10.mp3'}, {'duration': 1.4889795918367348, 'start': 51.74857142857143, 'speaker': 'Donald Trump', 'filename': 'donald_trump_11.mp3'}, {'filename': 'superman_12.mp3', 'duration': 2.27265306122449, 'speaker': 'Superman', 'start': 53.23755102040816}, {'filename': 'donald_trump_13.mp3', 'duration': 4.83265306122449, 'start': 55.51020408163265, 'speaker': 'Donald Trump'}, {'speaker': 'Superman', 'filename': 'superman_14.mp3', 'duration': 5.146122448979592, 'start': 60.34285714285714}, {'speaker': 'Donald Trump', 'duration': 2.6383673469387756, 'filename': 'donald_trump_15.mp3', 'start': 65.48897959183674}, {'filename': 'superman_16.mp3', 'start': 68.12734693877552, 'speaker': 'Superman', 'duration': 3.944489795918367}, {'duration': 1.906938775510204, 'filename': 'donald_trump_17.mp3', 'start': 72.07183673469389, 'speaker': 'Donald Trump'}, {'speaker': 'Superman', 'start': 73.97877551020409, 'duration': 1.1493877551020408, 'filename': 'superman_18.mp3'}], 'audio_path': 'media/generated/audio/final_audio.mp3'}, {'Donald Trump': '/home/vedansh/doomteach_parent/doomteach/generator/../media/stickers/donaldtrump.png', 'Superman': '/home/vedansh/doomteach_parent/doomteach/generator/../media/stickers/superman.png'}, ['Donald Trump', 'Superman'], media/bg_videos/vid1.mp4, media/generated/audio/final_audio.mp3, media/generated/video/
+tts_output in FILE video_editing_tool.py: {'timestamps': [{'start': 0, 'speaker': 'Donald Trump', 'duration': 3.474285714285714, 'filename': 'donald_trump_1.mp3'}, {'filename': 'superman_2.mp3', 'speaker': 'Superman', 'start': 3.474285714285714, 'duration': 9.560816326530611}, {'duration': 4.728163265306122, 'start': 13.035102040816327, 'speaker': 'Donald Trump', 'filename': 'donald_trump_3.mp3'}, {'speaker': 'Superman', 'start': 17.76326530612245, 'duration': 7.471020408163265, 'filename': 'superman_4.mp3'}, {'start': 25.234285714285715, 'filename': 'donald_trump_5.mp3', 'duration': 3.0040816326530613, 'speaker': 'Donald Trump'}, {'duration': 8.176326530612245, 'speaker': 'Superman', 'start': 28.238367346938777, 'filename': 'superman_6.mp3'}, {'filename': 'donald_trump_7.mp3', 'start': 36.414693877551024, 'duration': 2.9518367346938774, 'speaker': 'Donald Trump'}, {'duration': 4.963265306122449, 'speaker': 'Superman', 'start': 39.3665306122449, 'filename': 'superman_8.mp3'}, {'duration': 4.0751020408163265, 'start': 44.32979591836735, 'speaker': 'Donald Trump', 'filename': 'donald_trump_9.mp3'}, {'start': 48.40489795918368, 'speaker': 'Superman', 'duration': 3.3436734693877552, 'filename': 'superman_10.mp3'}, {'duration': 1.4889795918367348, 'start': 51.74857142857143, 'speaker': 'Donald Trump', 'filename': 'donald_trump_11.mp3'}, {'filename': 'superman_12.mp3', 'duration': 2.27265306122449, 'speaker': 'Superman', 'start': 53.23755102040816}, {'filename': 'donald_trump_13.mp3', 'duration': 4.83265306122449, 'start': 55.51020408163265, 'speaker': 'Donald Trump'}, {'speaker': 'Superman', 'filename': 'superman_14.mp3', 'duration': 5.146122448979592, 'start': 60.34285714285714}, {'speaker': 'Donald Trump', 'duration': 2.6383673469387756, 'filename': 'donald_trump_15.mp3', 'start': 65.48897959183674}, {'filename': 'superman_16.mp3', 'start': 68.12734693877552, 'speaker': 'Superman', 'duration': 3.944489795918367}, {'duration': 1.906938775510204, 'filename': 'donald_trump_17.mp3', 'start': 72.07183673469389, 'speaker': 'Donald Trump'}, {'speaker': 'Superman', 'start': 73.97877551020409, 'duration': 1.1493877551020408, 'filename': 'superman_18.mp3'}], 'audio_path': 'media/generated/audio/final_audio.mp3'}
+inside create video with stickers
+tts_output in FILE video_editing.py: {'timestamps': [{'start': 0, 'speaker': 'Donald Trump', 'duration': 3.474285714285714, 'filename': 'donald_trump_1.mp3'}, {'filename': 'superman_2.mp3', 'speaker': 'Superman', 'start': 3.474285714285714, 'duration': 9.560816326530611}, {'duration': 4.728163265306122, 'start': 13.035102040816327, 'speaker': 'Donald Trump', 'filename': 'donald_trump_3.mp3'}, {'speaker': 'Superman', 'start': 17.76326530612245, 'duration': 7.471020408163265, 'filename': 'superman_4.mp3'}, {'start': 25.234285714285715, 'filename': 'donald_trump_5.mp3', 'duration': 3.0040816326530613, 'speaker': 'Donald Trump'}, {'duration': 8.176326530612245, 'speaker': 'Superman', 'start': 28.238367346938777, 'filename': 'superman_6.mp3'}, {'filename': 'donald_trump_7.mp3', 'start': 36.414693877551024, 'duration': 2.9518367346938774, 'speaker': 'Donald Trump'}, {'duration': 4.963265306122449, 'speaker': 'Superman', 'start': 39.3665306122449, 'filename': 'superman_8.mp3'}, {'duration': 4.0751020408163265, 'start': 44.32979591836735, 'speaker': 'Donald Trump', 'filename': 'donald_trump_9.mp3'}, {'start': 48.40489795918368, 'speaker': 'Superman', 'duration': 3.3436734693877552, 'filename': 'superman_10.mp3'}, {'duration': 1.4889795918367348, 'start': 51.74857142857143, 'speaker': 'Donald Trump', 'filename': 'donald_trump_11.mp3'}, {'filename': 'superman_12.mp3', 'duration': 2.27265306122449, 'speaker': 'Superman', 'start': 53.23755102040816}, {'filename': 'donald_trump_13.mp3', 'duration': 4.83265306122449, 'start': 55.51020408163265, 'speaker': 'Donald Trump'}, {'speaker': 'Superman', 'filename': 'superman_14.mp3', 'duration': 5.146122448979592, 'start': 60.34285714285714}, {'speaker': 'Donald Trump', 'duration': 2.6383673469387756, 'filename': 'donald_trump_15.mp3', 'start': 65.48897959183674}, {'filename': 'superman_16.mp3', 'start': 68.12734693877552, 'speaker': 'Superman', 'duration': 3.944489795918367}, {'duration': 1.906938775510204, 'filename': 'donald_trump_17.mp3', 'start': 72.07183673469389, 'speaker': 'Donald Trump'}, {'speaker': 'Superman', 'start': 73.97877551020409, 'duration': 1.1493877551020408, 'filename': 'superman_18.mp3'}], 'audio_path': 'media/generated/audio/final_audio.mp3'}
+Total clips to composite: 2 (1 video + 1 overlays)
+Total clips to composite: 3 (1 video + 2 overlays)
+Total clips to composite: 4 (1 video + 3 overlays)
+Total clips to composite: 5 (1 video + 4 overlays)
+Total clips to composite: 6 (1 video + 5 overlays)
+Total clips to composite: 7 (1 video + 6 overlays)
+Total clips to composite: 8 (1 video + 7 overlays)
+Total clips to composite: 9 (1 video + 8 overlays)
+Total clips to composite: 10 (1 video + 9 overlays)
+Total clips to composite: 11 (1 video + 10 overlays)
+Total clips to composite: 12 (1 video + 11 overlays)
+Total clips to composite: 13 (1 video + 12 overlays)
+Total clips to composite: 14 (1 video + 13 overlays)
+Total clips to composite: 15 (1 video + 14 overlays)
+Total clips to composite: 16 (1 video + 15 overlays)
+Total clips to composite: 17 (1 video + 16 overlays)
+Total clips to composite: 18 (1 video + 17 overlays)
+Total clips to composite: 19 (1 video + 18 overlays)
+Generating subtitles for /home/vedansh/doomteach_parent/doomteach/media/generated/audio/final_audio.mp3
+Subtitles generated and saved to /home/vedansh/doomteach_parent/doomteach/subtitles.srt
+EVENT: Event
+CONTENT: None
+EVENT: Event
+CONTENT: The final video is located at media/generated/video/doom_video_with_subs.mp4.
+
+STATUS: RootAgent completed successfully.
